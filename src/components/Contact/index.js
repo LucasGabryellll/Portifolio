@@ -28,28 +28,36 @@ export function Contact() {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start"
+            method="POST"
+            action="https://formsubmit.co/lucas.gabdev@gmail.com"
           >
             <input
               className="bg-transparent border-b py-3 outline-none w-full
             placeholder:text-white focus:border-accent transition-all"
               type="text"
               placeholder="Your name"
+              name="name"
+              required
             />
 
             <input
               className="bg-transparent border-b py-3 outline-none w-full
             placeholder:text-white focus:border-accent transition-all"
-              type="text"
+              type="email"
               placeholder="Your email"
+              name="email"
+              required
             />
 
             <textarea
               className="bg-transparent border-b py-12 outline-none w-full
             placeholder:text-white focus:border-accent transition-all"
               placeholder="Your message"
+              name="message"
+              required
             ></textarea>
 
-            <button className="btn btn-lg">Send message</button>
+            <button type="submit" className="btn btn-lg">Send message</button>
           </motion.form>
         </div>
       </div>
