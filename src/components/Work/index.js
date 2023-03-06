@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../../variants';
 
-import Img1 from '../../assets/portfolio-img1.png';
+import Img1 from '../../assets/portfolio-01.png';
 import Img2 from '../../assets/portfolio-img2.png';
 import Img3 from '../../assets/portfolio-img3.png';
 
@@ -58,7 +58,7 @@ export function Work() {
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14
                transition-all duration-700 z-50">
-                <span className="text-3xl text-white"> Project Title</span>
+                <span className="text-3xl text-white">NZ Flix</span>
               </div>
             </div>
           </motion.div>
