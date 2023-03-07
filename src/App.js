@@ -20,6 +20,8 @@ export default function App() {
       <Services />
       <Work />
       <Contact />
+
+      <div className='h-[120px]'></div>
     </div>
   );
 }

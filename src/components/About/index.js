@@ -52,7 +52,7 @@ export function About() {
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {
                     inView ?
-                      <CountUp start={0} end={5} duration={3} /> : null
+                      <CountUp start={0} end={3} duration={3} /> : null
                   }
                 </div>
 

@@ -55,8 +55,11 @@ export function Banner() {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Unde, numquam. Harum deleniti id sapient.
+              Mobile developer studying information systems at UFRPE Serra Talhada campus.
+              I have experience in React Native technologies. I have a strong interest in 
+              working with innovative projects that use these technologies. In addition, 
+              I always seek to update myself with new innovative technologies in the market, 
+              in order to be able to implement solutions in projects.
             </motion.p>
 
             <motion.div
